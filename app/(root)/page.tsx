@@ -2,6 +2,7 @@
 
 import { Modal } from '@/components/ui/modal';
 import { useStoreModal } from '@/hooks/use-store-modal';
+
 import { useEffect } from 'react';
 
 const HomePage =()=>{
@@ -14,7 +15,7 @@ const HomePage =()=>{
     }
   }, [isOpen, onOpen])
   
-
+ 
   return (
     <div className='p-4'>
       root Page
