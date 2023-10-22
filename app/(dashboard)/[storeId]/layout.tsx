@@ -1,5 +1,4 @@
 import Navbar from "@/components/navbar";
-import { db } from "@/lib/kysely";
 import prismadb from "@/lib/prismadb";
 import { auth } from "@clerk/nextjs"
 import { redirect } from "next/navigation";
