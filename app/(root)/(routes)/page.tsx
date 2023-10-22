@@ -4,10 +4,12 @@ import { Modal } from '@/components/ui/modal';
 import { useStoreModal } from '@/hooks/use-store-modal';
 
 import { useEffect } from 'react';
+import  testfile  from '../../../testfile.json';
 
 const HomePage =()=>{
   const onOpen = useStoreModal((state) => state.onOpen);
   const isOpen = useStoreModal((state) => state.isOpen);
+  console.log('testfile here : ',testfile);
 
   useEffect(() => {
     if(!isOpen){
@@ -16,11 +18,7 @@ const HomePage =()=>{
   }, [isOpen, onOpen])
   
  
-  return (
-    <div className='p-4'>
-      root Page
-    </div>
-  );
+  return null;
 }
 
 

@@ -1,0 +1,4 @@
+{
+    "type": "dotenv -var %%",
+  "project_id": "dotenv -var %%"
+}
