@@ -2,7 +2,6 @@ import prismadb from "@/lib/prismadb";
 import { BillboardClient } from "./components/client";
 import { BillboardColumn } from "./components/columns";
 import {format} from 'date-fns';
-import { create } from "domain";
 
 const BillboardsPage = async ({params}:{params:{storeId:string}}) =>{
 
